@@ -7,4 +7,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="blue_interface">#33CCFF</color>
+    <color name="grey_for_button">#A5A5A5</color>
+    <color name="grey_usually_text">#535151</color>
 </resources>
