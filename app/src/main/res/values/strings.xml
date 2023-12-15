@@ -3,4 +3,9 @@
     <string name="title_home">Главная</string>
     <string name="title_train">Тренировка</string>
     <string name="title_profile">Профиль</string>
+    <string name="fast_start">Быстрый старт</string>
+    <string name="start_new_train">Начать новую тренировку</string>
+    <string name="plus">plus</string>
+    <string name="programs">Программы</string>
+    <string name="new_program">Новая программа</string>
 </resources>

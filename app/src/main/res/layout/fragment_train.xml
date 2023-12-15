@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.ui.tarin.TrainsFragment">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="45dp"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="@string/fast_start"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+<!--    <Button-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_margin="16dp"-->
+<!--        android:drawableStart="@drawable/ic_add"-->
+<!--        android:text="@string/start_new_train"-->
+<!--        android:textSize="18sp"-->
+<!--        android:drawablePadding="10dp"-->
+<!--        android:background="@drawable/my_button_bg"-->
+<!--        android:textAlignment="textStart"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView" />-->
+        <LinearLayout
+        android:id="@+id/startTrainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="25dp"
+        android:orientation="horizontal"
+        android:background="@drawable/my_button_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <ImageView
+            android:id="@+id/iconAddNewTrain"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/plus"
+            android:src="@drawable/ic_add" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start_new_train"
+            android:textColor="@color/black"
+            android:textSize="24sp"/>
+    </LinearLayout>
+
+<!--        <TextView-->
+<!--        android:id="@+id/tvPrograms"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="25dp"-->
+<!--        android:layout_marginTop="45dp"-->
+<!--        android:textSize="26sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:text="@string/programs"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="@id/startTrainLayout" />-->
+
+
+<!--    <RelativeLayout-->
+<!--        android:id="@+id/RelativeAddProgram"-->
+<!--        android:layout_width="347dp"-->
+<!--        android:layout_height="260dp"-->
+<!--        android:layout_marginStart="25dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_marginEnd="25dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="1.0"-->
+<!--        app:layout_constraintHorizontal_weight=""-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/tvPrograms">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imageView"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_marginStart="35dp"-->
+<!--            android:layout_marginTop="46dp"-->
+<!--            android:src="@drawable/ic_clipboard" />-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/imageView"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:layout_marginTop="49dp"-->
+<!--            android:textSize="20sp"-->
+<!--            android:layout_marginBottom="106dp"-->
+<!--            android:text="@string/new_program" />-->
+<!--    </RelativeLayout>-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
